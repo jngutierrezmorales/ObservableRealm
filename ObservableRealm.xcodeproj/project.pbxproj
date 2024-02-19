@@ -11,8 +11,8 @@
 		F9AC84142B83E15F007AC135 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F9AC84132B83E15F007AC135 /* RealmSwift */; };
 		F9AC84172B83E1A1007AC135 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC84162B83E1A1007AC135 /* Group.swift */; };
 		F9AC84192B83E1AA007AC135 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC84182B83E1AA007AC135 /* Item.swift */; };
-		F9B614682B7F96A200DA8137 /* ObservableRealmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B614672B7F96A200DA8137 /* ObservableRealmApp.swift */; };
-		F9B6146A2B7F96A200DA8137 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B614692B7F96A200DA8137 /* ContentView.swift */; };
+		F9B614682B7F96A200DA8137 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B614672B7F96A200DA8137 /* Main.swift */; };
+		F9B6146A2B7F96A200DA8137 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B614692B7F96A200DA8137 /* HomeView.swift */; };
 		F9B6146C2B7F96A500DA8137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B6146B2B7F96A500DA8137 /* Assets.xcassets */; };
 		F9B6146F2B7F96A500DA8137 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B6146E2B7F96A500DA8137 /* Preview Assets.xcassets */; };
 		F9B614792B7F96A500DA8137 /* ObservableRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B614782B7F96A500DA8137 /* ObservableRealmTests.swift */; };
@@ -41,8 +41,8 @@
 		F9AC84162B83E1A1007AC135 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		F9AC84182B83E1AA007AC135 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F9B614642B7F96A200DA8137 /* ObservableRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9B614672B7F96A200DA8137 /* ObservableRealmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableRealmApp.swift; sourceTree = "<group>"; };
-		F9B614692B7F96A200DA8137 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9B614672B7F96A200DA8137 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F9B614692B7F96A200DA8137 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F9B6146B2B7F96A500DA8137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B6146E2B7F96A500DA8137 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9B614742B7F96A500DA8137 /* ObservableRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObservableRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				F9AC84152B83E194007AC135 /* Models */,
-				F9B614672B7F96A200DA8137 /* ObservableRealmApp.swift */,
-				F9B614692B7F96A200DA8137 /* ContentView.swift */,
+				F9B614672B7F96A200DA8137 /* Main.swift */,
+				F9B614692B7F96A200DA8137 /* HomeView.swift */,
 				F9B6146B2B7F96A500DA8137 /* Assets.xcassets */,
 				F9B6146D2B7F96A500DA8137 /* Preview Content */,
 			);
@@ -284,8 +284,8 @@
 			files = (
 				F9AC84192B83E1AA007AC135 /* Item.swift in Sources */,
 				F9AC84172B83E1A1007AC135 /* Group.swift in Sources */,
-				F9B6146A2B7F96A200DA8137 /* ContentView.swift in Sources */,
-				F9B614682B7F96A200DA8137 /* ObservableRealmApp.swift in Sources */,
+				F9B6146A2B7F96A200DA8137 /* HomeView.swift in Sources */,
+				F9B614682B7F96A200DA8137 /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
